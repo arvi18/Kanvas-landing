@@ -266,7 +266,7 @@ section {
 }
 
 .navbar-nav .nav-link:hover, .navbar-nav .nav-link:focus {
-  color: #540CFA;
+  color: #2f6fff;
 }
 
 .section-header-title {
@@ -940,31 +940,31 @@ STYLE SWITCHER FOR DEMO
 .btn-primary {
   color: #fff;
   background-color: #540CFA;
-  border-color: #540CFA;
+  border-color: none;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #4505db;
-  border-color: #4204cf;
+  background-color: #2f6fff;
+  /* border-color: #4204cf; */
 }
 
 .btn-primary:focus, .btn-primary.focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(84, 12, 250, 0.5);
-  box-shadow: 0 0 0 0.2rem rgba(84, 12, 250, 0.5);
+  -webkit-box-shadow: 0 0 0 0.2rem #2f6fff;
+  box-shadow: 0 0 0 0.2rem #2f6fff;
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
-  background-color: #540CFA;
-  border-color: #540CFA;
+  background-color: #2f6fff;
+  border-color: #2f6fff;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #4204cf;
-  border-color: #3e04c2;
+  background-color: #2f6fff;
+  border-color: #2f6fff;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
