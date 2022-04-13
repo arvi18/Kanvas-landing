@@ -2,13 +2,14 @@
 .btn-primary {
   background-color: #2f6fff;
 }
-.swiper-slide-img {
+.tv-shows-slider .swiper-slide {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  margin: 0 5px ;
+  margin: 0 5px !important ;
   width: 300px !important;
+  margin-top: 0px;
 }
 
-.swiper-slide-img img {
+.tv-shows-slider .swiper-slide img {
   height: 400px !important;
   width: 100%;
   object-fit: cover !important;
