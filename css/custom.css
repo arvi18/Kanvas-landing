@@ -1,4 +1,16 @@
 /* your styles go here */
-.btn-primary{
-    background-color: #2F6FFF;
+.btn-primary {
+  background-color: #2f6fff;
+}
+.swiper-slide-img {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin: 0 5px ;
+  width: 300px !important;
+}
+
+.swiper-slide-img img {
+  height: 400px !important;
+  width: 100%;
+  object-fit: cover !important;
+  border-radius: 10px;
 }
